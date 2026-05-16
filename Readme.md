@@ -6,7 +6,7 @@ Display random wallpapers on your website or IPTV player.
 
 1. Go to [Cloudflare Workers](https://workers.cloudflare.com/)
 
-2. Create a new Worker and paste the worker.js into the Code tab
+2. Create a new Worker and paste the `worker.js` into the Code tab
 
 3. Deploy the Worker
 
