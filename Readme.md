@@ -12,9 +12,12 @@ Display random wallpapers on your website or IPTV player.
 
 4. Use the Worker URL in your IPTV player or application as the background image URL
 
-## Usage
-
-Add wallpaper URLs to the `wallPaper` array in the Worker code. Each time the URL is accessed, a random wallpaper from the array will be returned.
+### Use in IPTV Player
+ 
+1. Get your Worker URL from Cloudflare (e.g., `https://your-worker.workers.dev`)
+2. In your IPTV player settings, set the background image URL to your Worker URL
+3. Each time the player loads, it will display a random wallpaper from your array
+4. To change wallpapers, simply add or remove URLs from the Worker code and redeploy
 
 ## Troubleshooting
 
